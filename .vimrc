@@ -1,4 +1,5 @@
 set clipboard+=unnamedplus,unnamed
+set ic
 set number
 set mouse=a
 set tabstop=4       " The width of a TAB is set to 4.
