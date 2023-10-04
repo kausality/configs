@@ -11,7 +11,6 @@ nnoremap <Leader>en :action EditSourceInNewWindow<CR>
 nnoremap <Leader>n :action NextWindow<CR>
 nnoremap <Leader>q :action CloseContent<CR>
 nnoremap <Leader>qa :action CloseAllEditors<CR>
-command vs :action SplitVertically<CR>
 
 " editing
 vnoremap < <gv
@@ -50,6 +49,10 @@ nnoremap gp :action GotToSuperMethod<CR>
 nnoremap gt :action GotoTest<CR>
 nnoremap gb :action Back<CR>
 nnoremap gf :action Forward<CR>
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
 
 " tool windows
 nnoremap <c-p> :action JumpToLastWindow<CR>
