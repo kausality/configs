@@ -11,6 +11,7 @@ nnoremap <Leader>en :action EditSourceInNewWindow<CR>
 nnoremap <Leader>n :action NextWindow<CR>
 nnoremap <Leader>q :action CloseContent<CR>
 nnoremap <Leader>qa :action CloseAllEditors<CR>
+nnoremap <Leader>vs :action SplitVertically<CR><C-w>h
 
 " editing
 vnoremap < <gv
