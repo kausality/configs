@@ -35,6 +35,7 @@ nnoremap gE :action GotoPreviousError<CR>
 " navigation
 set incsearch
 nnoremap <c-/> :action FindInPath<CR>
+nnoremap <c-\>r :action Replace<CR>
 nnoremap <c-a> :action GotoAction<CR>
 nnoremap <c-f> :action GotoFile<CR>
 nnoremap <leader>u :action FindUsages<CR>
